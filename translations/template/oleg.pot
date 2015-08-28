@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# NB: Consider using poEdit <http://poedit.sourceforge.net>
+#
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ./user/sites/oleg/templates/_comments.tpl:6 
+msgid ""
+"Comments"
+msgstr ""
+
+#: ./user/sites/oleg/templates/article_summary.tpl:48 
+msgid ""
+"Continue reading"
+msgstr ""
+
+#: ./user/sites/oleg/templates/search.tpl:46 
+msgid ""
+"Did not find any pages matching"
+msgstr ""
+
+#: ./user/sites/oleg/templates/_comments_form.tpl:30 
+msgid ""
+"E-mail"
+msgstr ""
+
+#: ./user/sites/oleg/templates/article.tpl:18 
+msgid ""
+"Keywords"
+msgstr ""
+
+#: ./user/sites/oleg/templates/_comments_form.tpl:16 
+msgid ""
+"Leave a Reply"
+msgstr ""
+
+#: ./user/sites/oleg/templates/_comments_form.tpl:51 
+msgid ""
+"Log on or sign up to comment"
+msgstr ""
+
+#: ./user/sites/oleg/templates/_comments_form.tpl:37 
+msgid ""
+"Message"
+msgstr ""
+
+#: ./user/sites/oleg/templates/_comments_form.tpl:24 
+msgid ""
+"Name"
+msgstr ""
+
+#: ./user/sites/oleg/templates/_comments_form.tpl:18 
+msgid ""
+"Note: Comments are moderated"
+msgstr ""
+
+#: ./user/sites/oleg/templates/_menu_extra.tpl:4 
+msgid ""
+"Search"
+msgstr ""
+
+#: ./user/sites/oleg/templates/search.tpl:11 
+msgid ""
+"Search Results"
+msgstr ""
+
+#: ./user/sites/oleg/templates/_comments_form.tpl:43 
+msgid ""
+"Send"
+msgstr ""
+
+#: ./user/sites/oleg/templates/_language_switch.tpl:7 
+msgid ""
+"Switch language"
+msgstr ""
+
+#: ./user/sites/oleg/templates/_comments_form.tpl:8 
+msgid ""
+"Your comment has been saved and will be subject to review before it is "
+"displayed to other visitors of the website. Thank you for your comment!"
+msgstr ""
+
+#: ./user/sites/oleg/templates/article_summary.tpl:18 ./user/sites/oleg/templates/search.tpl:28 
+msgid ""
+"comments"
+msgstr ""

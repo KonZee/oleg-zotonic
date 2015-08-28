@@ -1,0 +1,20 @@
+%% -*- mode: erlang -*-
+%% Put your dispatch rules here.
+[
+ %% Homepage
+ {home,     [],                   controller_page,      [ {template, "home.tpl"}, {id, page_home} ]},
+
+ %% Pages
+ {blog,     ["blog"],             controller_page,      [ {template, "blog.tpl"}, {id, page_blog} ]},
+ {blog,     ["blog", id, slug],   controller_page,      [ {template, {cat, "article.tpl"}} ]},
+ {media,    ["media"],            controller_page,      [ {template, "media.tpl"}, {id, page_media} ]},
+ {media,    ["media", id, slug],  controller_page,      [ {template, {cat, "article.tpl"}} ]},
+ {works,    ["works"],            controller_page,      [ {template, "works.tpl"}, {id, page_works} ]},
+ {works,    ["works", id, slug],  controller_page,      [ {template, {cat, "article.tpl"}} ]},
+
+ %% Search page
+ {search,   ["search"],           controller_template,  [ {template, "search.tpl"} ]},
+
+ %% Keywords
+ {keyword,      ["keyword", id, slug],   controller_page,      [ {template, "keyword.tpl"} ]}
+].
