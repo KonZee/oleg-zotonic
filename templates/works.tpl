@@ -10,7 +10,7 @@
 			{% endfor %}
 			{% pager result=result dispatch='works' id=id hide_single_page %}
 		{% else %}
-			Oops... There is no post in works yet
+			Sorry. There are no posts in the works section.
 		{% endif %}
 	{% endwith %}
 {% endblock %}

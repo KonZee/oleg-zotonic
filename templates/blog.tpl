@@ -10,7 +10,7 @@
 			{% endfor %}
 			{% pager result=result dispatch='blog' id=id hide_single_page %}
 		{% else %}
-			Oops... There is no post in blog yet
+			Sorry. There are no posts in the blog section.
 		{% endif %}
 	{% endwith %}
 {% endblock %}

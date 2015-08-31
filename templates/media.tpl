@@ -10,7 +10,7 @@
 			{% endfor %}
 			{% pager result=result dispatch='press' id=id hide_single_page %}
 		{% else %}
-			Oops... There is no post in media yet
+			Sorry. There are no posts in the media section.
 		{% endif %}
 	{% endwith %}
 {% endblock %}
